@@ -4,7 +4,7 @@
 
 E-Blood-Bank is a Java-based application designed to manage blood bank operations efficiently. This project provides a comprehensive solution for blood donation management, inventory tracking, and donor management.
 
-# The website is live: # [E-Blood-Bank-by-Subhadip](https://bloodbank-image-latest.onrender.com/Landing.jsp)
+# The website is live on: [E-Blood-Bank-by-Subhadip](https://bloodbank-image-latest.onrender.com/Landing.jsp)
 
 **Language:** Java (100%)  
 **Repository:** [subhadip2004999/E-Blood-Bank-in-Java](https://github.com/subhadip2004999/E-Blood-Bank-in-Java)
