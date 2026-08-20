@@ -37,7 +37,7 @@ public class DeleteDonorServlet extends HttpServlet {
 		try {
 			Class.forName("org.postgresql.Driver");
 			
-			String url = "jdbc:postgresql://aws-0-ap-northeast-1.pooler.supabase.com:5432/postgres?user=postgres.bwbvekfvfictyrfuhdfy&password=4eMUIEUJex1wVcOl";
+			String url = "url";
 			Connection con = DriverManager.getConnection(url);
 			
 			PreparedStatement ps = con.prepareStatement("delete from donor_table where \"Email\"=?");

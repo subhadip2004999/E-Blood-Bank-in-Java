@@ -45,7 +45,7 @@ public class RegistrationServlet extends HttpServlet {
 			
 			Class.forName("org.postgresql.Driver");
 			
-			String URL = "jdbc:postgresql://aws-0-ap-northeast-1.pooler.supabase.com:5432/postgres?user=postgres.bwbvekfvfictyrfuhdfy&password=4eMUIEUJex1wVcOl";
+			String URL = "url";
 			
 			Connection con = DriverManager.getConnection(URL);
 			

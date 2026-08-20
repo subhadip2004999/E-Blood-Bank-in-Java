@@ -29,7 +29,7 @@ public class FetchDonorServlet extends HttpServlet {
 
         try {
             Class.forName("org.postgresql.Driver");
-            String URL = "jdbc:postgresql://aws-0-ap-northeast-1.pooler.supabase.com:5432/postgres?user=postgres.bwbvekfvfictyrfuhdfy&password=4eMUIEUJex1wVcOl";
+            String URL = "url";
             Connection con2 = DriverManager.getConnection(URL);
             
             String query2 = "SELECT * FROM donor_table WHERE \"City\" = ? AND \"BloodGroup\" = ?";
